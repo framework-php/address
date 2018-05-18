@@ -1,0 +1,7 @@
+formatter.name: pretty
+suites:
+  addresses:
+    src_path: %paths.config%/src
+    spec_path: %paths.config%/tests
+    namespace: GuilhermeHideki\Core\Address
+    psr4_prefix: GuilhermeHideki\Core\Address

@@ -1,0 +1,44 @@
+{
+    "name": "guilhermehideki/address",
+    "description": "Helper methods for managing addresses",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Guilherme Danno",
+            "email": "Guilherme.danno@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "GuilhermeHideki\\Core\\Address\\": "src/"
+        }
+    },
+
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\" : "tests/"
+        }
+    },
+
+    "config": {
+        "sort-packages": true,
+        "platform": {
+            "php": "5.6"
+        }
+    },
+
+    "require": {
+        "aura/payload": "^3.0",
+        "http-interop/http-factory": "^0.3.0",
+        "php-http/httplug": "^1.1"
+    },
+
+    "require-dev": {
+        "campo/random-user-agent": "^1.2",
+        "http-interop/http-factory-diactoros": "^0.3.0",
+        "php-http/guzzle6-adapter": "^1.1",
+        "phpunit/phpunit": "^5.7",
+        "rdlowrey/auryn": "^1.4"
+    }
+}
